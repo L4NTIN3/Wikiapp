@@ -48,8 +48,8 @@ const Haku = () => {
     return(
 
         <div className="haku">
-            <h1 className="otsikko">Paina tästä hakeaksesi uuden artikkelin</h1>
-            <button className="nappi" onClick={(e) => setClicks(clicks + 1)}>Paina</button>
+            <h1 className="otsikko">Paina tästä hakeaksesi uuden Wikipedia artikkelin</h1>
+            <button className="nappi" onClick={(e) => setClicks(clicks + 1)}>Hae</button>
 
         </div>
 
