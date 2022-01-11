@@ -27,5 +27,5 @@
 }
 
 .delete {
-    @apply float-right mr-0
+    @apply float-right mr-0 grid place-items-center font-bold
 }
