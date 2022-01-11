@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.haku{
+    @apply bg-slate-300 p-10
+}
+
+.otsikko{
+    @apply font-semibold mb-5
+}
+
+
+.nappi{
+    @apply bg-amber-200 w-24 p-2
+}
+
+
+.tekstiosio{
+    @apply w-full max-h-screen flex align-top justify-center overflow-y-auto
+}
+
+.linkki{
+    @apply bg-teal-500 h-20 w-96 grid place-items-center m-2 p-4 rounded-lg
+}
+
+.delete {
+    @apply float-right mr-0
+}
